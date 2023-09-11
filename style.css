@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 120px;
+    align-items: center;
+    height: 70px;
+}
+.list a{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    margin-left: 30px;
+
+}
+.list a:hover{
+    color: coral;
+}
+.navbar button{
+    padding: 10px 25px;
+    border-radius: 30px;
+    background-color: coral;
+    border: none;
+}
+.navbar button:hover{
+    background: transparent;
+    border: 1px solid black;
+    cursor: pointer;
+    
+}
+.header{
+    padding: 0 120px;
+    height: 85vh;
+    background: url(./banner.png);
+    display: flex;
+    background-position: center;
+}
+.header button{
+    padding: 10px 30px;
+    border-radius: 30px;
+    background: coral;
+    margin: 30px 50px;
+}
+.header button:hover{
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+}
+.header-text{
+    width: 350px;
+    height: 240px;
+    background-color: rgb(251, 234, 214);
+    overflow: hidden;
+    margin-top: 140px;
+    border-radius: 10px;
+    padding: 20px 0px 0px 20px;
+    margin-left: 650px;
+}
+.header-text h1{
+    color: rgb(167, 125, 33);
+}
+.header-text h4{
+    font-size: 20px;
+    margin: 7px;
+    color: rgb(167, 125, 33);
+}
+.header-text p{
+    margin-top: 7px;
+}
+/*-----------About Section-----------*/
+.about{
+    padding: 30px 120px;
+}
+.about h1, h3{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.about-items{
+
+}
+.about-items img{
+    width: 300px;
+    height: 350px;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.about-items img:hover{
+    opacity: 50%;
+    cursor: pointer;
+    
+}
